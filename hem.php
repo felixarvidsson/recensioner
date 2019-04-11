@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <header>
         <nav>
             <ul>
-                <li><a href="hem.html">Hem</a></li>
-                <li><a href="recensioner.html">Recensioner</a></li>
-                <li><a href="restauranger.html">Restauranger</a></li>
-                <li><a href="profil.html"></a>Min profil</li>
-                <li><a href="skapaProfil.html"></a>Skapa profil</li>
+                <li><a href="hem.php">Hem</a></li>
+                <li><a href="recensioner.php">Recensioner</a></li>
+                <li><a href="restauranger.php">Restauranger</a></li>
+                <li><a href="profil.php">Min profil</a></li>
+                <li><a href="skapaProfil.php">Skapa profil</a></li>
             </ul>
         </nav>
     </header>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway');
+
+@import 'palette';
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #423E37;
+    width: auto;
+    height: 150px;
+    padding: 30px;
+
+    nav {
+        font-family: 'Merriweather', serif;
+        background: #423E37;
+        margin: 40px;
+        display: grid;
+        grid-template: auto auto auto auto auto;
+        align-items: center;
+
+        ul {
+            padding-left: 0;
+            text-align: center;
+            color: white;
+
+
+            li {
+                display: inline;
+                list-style-type: none;
+
+
+                a {
+                    padding: 5px 10px;
+                    text-decoration: none;
+                    color: black;
+                    background: #FFB52D;
+                    margin: 20px;
+                    font-weight: bold;
+                }
+
+                a:hover {
+                    background: grey;
+                }
+
+                .current {
+                    background: #FFCC66;
+                    color: #000000;
+                }
+            }
+        }
+    }
+    
+}
