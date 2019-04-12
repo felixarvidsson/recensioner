@@ -13,8 +13,8 @@
                         <li><a href="hem.php">Hem</a></li>
                         <li><a href="recensioner.php">Recensioner</a></li>
                         <li><a href="restauranger.php">Restauranger</a></li>
-                        <li><a href="profil.php"></a>Min profil</li>
-                        <li><a href="skapaProfil.php"></a>Skapa profil</li>
+                        <li><a href="profil.php">Min profil</a></li>
+                        <li><a href="skapaProfil.php">Skapa profil</a></li>
                     </ul>
                 </nav>
             </header>

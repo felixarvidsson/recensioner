@@ -28,14 +28,23 @@ ul {
   padding: 0;
 }
 
-header {
+body {
+  background-color: black;
+}
+
+body .container {
+  width: 1366px;
+  margin: auto;
+}
+
+body .container header {
   background-color: #423E37;
   width: auto;
   height: 150px;
   padding: 30px;
 }
 
-header nav {
+body .container header nav {
   font-family: 'Merriweather', serif;
   background: #423E37;
   margin: 40px;
@@ -47,32 +56,62 @@ header nav {
           align-items: center;
 }
 
-header nav ul {
+body .container header nav ul {
   padding-left: 0;
   text-align: center;
   color: white;
 }
 
-header nav ul li {
+body .container header nav ul li {
   display: inline;
   list-style-type: none;
+  border-color: black;
 }
 
-header nav ul li a {
+body .container header nav ul li a {
   padding: 5px 10px;
   text-decoration: none;
   color: black;
   background: #FFB52D;
   margin: 20px;
   font-weight: bold;
+  font-size: 28px;
+  border-color: black;
 }
 
-header nav ul li a:hover {
+body .container header nav ul li a:hover {
   background: grey;
 }
 
-header nav ul li .current {
+body .container header nav ul li .current {
   background: #FFCC66;
   color: #000000;
+}
+
+body .container main {
+  background-color: #A39594;
+  height: 561px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px;
+  grid-gap: 30px;
+}
+
+body .container main img {
+  padding: 10px;
+}
+
+body .container main h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+body .container main p {
+  font-family: 'Raleway', serif;
 }
 /*# sourceMappingURL=style.css.map */

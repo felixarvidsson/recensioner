@@ -26,50 +26,87 @@ ul {
     padding: 0;
 }
 
-header {
-    background-color: #423E37;
-    width: auto;
-    height: 150px;
-    padding: 30px;
+body {
+    background-color: black;
 
-    nav {
-        font-family: 'Merriweather', serif;
-        background: #423E37;
-        margin: 40px;
-        display: grid;
-        grid-template: auto auto auto auto auto;
-        align-items: center;
+    .container {
+        width: 1366px;
+        margin: auto;
 
-        ul {
-            padding-left: 0;
-            text-align: center;
-            color: white;
+        header {
+            background-color: #423E37;
+            width: auto;
+            height: 150px;
+            padding: 30px;
+
+            nav {
+                font-family: 'Merriweather', serif;
+                background: #423E37;
+                margin: 40px;
+                display: grid;
+                grid-template: auto auto auto auto auto;
+                align-items: center;
+
+                ul {
+                    padding-left: 0;
+                    text-align: center;
+                    color: white;
 
 
-            li {
-                display: inline;
-                list-style-type: none;
+                    li {
+                        display: inline;
+                        list-style-type: none;
+                        border-color: black;
 
 
-                a {
-                    padding: 5px 10px;
-                    text-decoration: none;
-                    color: black;
-                    background: #FFB52D;
-                    margin: 20px;
-                    font-weight: bold;
-                }
+                        a {
+                            padding: 5px 10px;
+                            text-decoration: none;
+                            color: black;
+                            background: #FFB52D;
+                            margin: 20px;
+                            font-weight: bold;
+                            font-size: 28px;
+                            border-color: black;
+                        }
 
-                a:hover {
-                    background: grey;
-                }
+                        a:hover {
+                            background: grey;
+                        }
 
-                .current {
-                    background: #FFCC66;
-                    color: #000000;
+                        .current {
+                            background: #FFCC66;
+                            color: #000000;
+                        }
+                    }
                 }
             }
+
+        }
+
+        main {
+            background-color: #A39594;
+            height: 561px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            justify-content: space-between;
+            padding: 30px;
+            grid-gap: 30px;
+
+            img {
+                padding: 10px;
+            }
+
+            h2 {
+                font-family: 'Merriweather', serif;
+                font-weight: bold;
+            }
+
+            p {
+                font-family: 'Raleway', serif;
+                
+            }
+
         }
     }
-    
 }
